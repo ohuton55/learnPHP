@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta http=equiv="X-UA-Compatible" content="IE=Edge">
+  <meta equiv="X-UA-Compatible" content="IE=Edge">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
@@ -12,7 +12,7 @@
   <main>
   <form action="includes/formhandler.php" method="post">
       <label for="firstname">Firstname?</label>
-      <input id="firstname" type="text" name="firstname" placeholder="firstname...">
+      <input required id="firstname" type="text" name="firstname" placeholder="firstname...">
 
       <label for="lastname">lastname?</label>
       <input id="lastname" type="text" name="lastname" placeholder="lastname...">
